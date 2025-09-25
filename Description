@@ -1,0 +1,21 @@
+📊 Exploratory Data Analysis (EDA) Project
+📝 Description
+
+This project focuses on performing Exploratory Data Analysis (EDA) on a dataset to uncover hidden patterns, detect anomalies, and visualize key insights.
+Through data cleaning, statistical analysis, and visualization, the goal is to make the dataset ready for modeling and decision-making.
+
+✨ Key Highlights:
+
+🧹 Data Cleaning (handling missing values, outliers, duplicates)
+
+📈 Descriptive Statistics & Data Distributions
+
+🎨 Data Visualization (histograms, heatmaps, scatterplots, boxplots)
+
+🔍 Correlation & Feature Relationships
+
+🤖 Insights for Model Building
+
+🏷️ Tags
+
+EDA Data Analysis Python Pandas NumPy Matplotlib Seaborn Data Visualization Jupyter Notebook Machine Learning Prep
