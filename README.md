@@ -6,17 +6,6 @@ This project is a Python-based web scraper and data analysis tool designed to ex
 ## Project Type
 Data Engineering | Exploratory Data Analysis
 
-## Directory Structure
-quotes-scraper-analysis/
-├─ scraper/
-│  ├─ scraper.py
-├─ data/
-│  ├─ quotes.csv
-├─ analysis/
-│  ├─ pandas_analysis.py
-│  ├─ sql_queries.md
-├─ README.md
-
 ## Features
 - **Automated Web Scraping:** Uses requests and BeautifulSoup to extract author, quote, and tags from multiple pages.
 - **Error Handling:** Robust try/except blocks to manage failed requests or parsing errors.
@@ -34,8 +23,7 @@ quotes-scraper-analysis/
 ## Installation & Getting Started
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Ashish0016op/Quotes-analysis.git
-    cd quotes-analysis
+    git clone https://github.com/Ashish0016op/Quotes-Scraper-Data-Analysis.git
     ```
 2. Install dependencies:
     ```bash
