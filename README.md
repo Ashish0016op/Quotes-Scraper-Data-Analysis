@@ -51,15 +51,11 @@ Data Engineering | Exploratory Data Analysis
     - Use the SQL queries in `SQL_Insights.sql` on `cleaned_data.csv` (can be imported into SQLite, MySQL, etc.)
 
 ## Usage
-- Scrape quotes and save to CSV:
-    ```bash
-    python scraper/scraper.py
-    ```
-- Analyze CSV data with Pandas:
-    ```bash
-    python analysis/pandas_analysis.py
-    ```
-- Refer to `analysis/sql_queries.md` for SQL query examples and explanations.
+
+- Scrape quotes and save to CSV using the provided notebook.
+- Clean and explore the data with EDA notebook.
+- Run SQL queries for advanced insights.
+- Visualize results in Jupyter or any preferred tool.
 
 ## Technology Stack
 - Python
