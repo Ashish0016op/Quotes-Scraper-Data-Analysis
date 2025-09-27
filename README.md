@@ -4,7 +4,7 @@
 This project is a Python-based web scraper and data analysis tool designed to extract quotes from a website, store them in a CSV file, and perform insightful queries and exploratory data analysis. The solution demonstrates how to automate web data extraction and leverage both SQL-like queries and Pandas for real-world data analysis.
 
 ## Project Type
-Backend | Data Engineering | Data Analysis
+Data Engineering | Exploratory Data Analysis
 
 ## Directory Structure
 quotes-scraper-analysis/
