@@ -6,6 +6,17 @@ This project is a Python-based web scraper and data analysis tool designed to ex
 ## Project Type
 Data Engineering | Exploratory Data Analysis
 
+## Directory Structure
+
+```
+├─ scrapping_part.ipynb        
+├─ cleaned_data.csv             
+├─ quotes.csv                 
+├─ EDA_part (2).ipynb          
+├─ SQL_Insights.sql              
+├─ README.md                    
+```
+
 ## Features
 - **Automated Web Scraping:** Uses requests and BeautifulSoup to extract author, quote, and tags from multiple pages.
 - **Error Handling:** Robust try/except blocks to manage failed requests or parsing errors.
@@ -24,19 +35,20 @@ Data Engineering | Exploratory Data Analysis
 1. Clone the repository:
     ```bash
     git clone https://github.com/Ashish0016op/Quotes-Scraper-Data-Analysis.git
+    cd Quotes-Scraper-Data-Analysis
     ```
 2. Install dependencies:
     ```bash
     pip install requests beautifulsoup4 pandas
     ```
-3. Run the scraper:
-    ```bash
-    python scraper/scraper.py
-    ```
-4. Run the Pandas analysis script:
-    ```bash
-    EDA_part (2).py
-    ```
+3. **Run the web scraper:**
+    - Open `scrapping_part.ipynb` in Jupyter Notebook and run the cells to scrape and save quotes data.
+
+4. **Clean the data:**
+    - Use `EDA_part (2).ipynb` to load `quotes.csv`, clean, and export `cleaned_data.csv`.
+
+5. **Analyze with SQL:**
+    - Use the SQL queries in `SQL_Insights.sql` on `cleaned_data.csv` (can be imported into SQLite, MySQL, etc.)
 
 ## Usage
 - Scrape quotes and save to CSV:
