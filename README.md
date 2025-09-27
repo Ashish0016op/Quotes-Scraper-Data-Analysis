@@ -35,7 +35,7 @@ Data Engineering | Exploratory Data Analysis
     ```
 4. Run the Pandas analysis script:
     ```bash
-    python analysis/pandas_analysis.py
+    EDA_part (2).py
     ```
 
 ## Usage
